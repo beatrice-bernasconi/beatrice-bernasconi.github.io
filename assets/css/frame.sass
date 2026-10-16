@@ -21,6 +21,15 @@ body > header, body > footer
   background: light(20, 17)
   color: light(100)
 
+.side-by-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+.side-by-side img {
+  flex-shrink: 0;
+  }
+  
 {% if site.show_frame contains "." %}
 
 @media (min-width: 60em)
