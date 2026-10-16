@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
+title: "Beatrice Bernasconi"
+author: "Beatrice Bernasconi"
+description: "Algebraic Geometry PhD student at ETH Zürich"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -19,12 +19,9 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:beatrice.bernasconi@math.ethz.ch"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
