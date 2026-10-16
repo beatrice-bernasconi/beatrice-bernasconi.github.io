@@ -2,7 +2,7 @@
 layout: page 
 title: "Welcome"
 ---
-![on a hike]({{ site.baseurl }}/photo_website.jpg)
+![on a hike]({{ site.baseurl }}/photo_website.jpg){: width="200" height="300"}
 
 I am a PhD student at ETH Zürich, under the supervision of Dr. Christian Urech and Prof. Dr. Rahul Pandharipande. Before, I was a Bachelor and Master student at UniMi, and I wrote my master thesis under the supervision of Prof. Roberto Svaldi.
 
