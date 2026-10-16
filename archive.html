@@ -4,10 +4,22 @@ layout: default
 ---
 
 <main>
-  <header><h1>{{ include.title | default: page.title }}</h1></header>
-  <nav class="smooth">
-    {% for post in site.posts %}
-    <div><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
-    {% endfor %}
-  </nav>
+  <header><h1>Archive</h1></header>
+  <h3> Preprints </h3>
+  <ul>
+    <li> Work in progress! Hopefully something will appear soon!</li>
+  </ul>
+  <h3> Master's Thesis</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}/Master_thesis_Bernasconi.pdf" download>Classification of Holomorphic Foliations on Algebraic Surfaces</a></li>
+  </ul>
+  <h3>Seminars and Talks</h3>
+  <ul>
+  <li>11.03.2026 "Sarkisov length in the plane Cremona Group" - Algebraic Geometry and Moduli Seminar, ETH Zürich, Switzerland </li>
+  <li>20.05.2026 "Length functions in the plane Cremona Group" - Bernoulli Tafelrunde, Universität Basel, Switzerland </li>
+  <li>12.11.2026 "Length functions in the plane Cremona Group" - Geometry Graduate Colloquium, ETH Zürich, Switzerland </li>
+
+</ul>
+  
+</object>
 </main>
